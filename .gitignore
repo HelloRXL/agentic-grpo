@@ -1,0 +1,36 @@
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+outputs/
+.ray_tmp/
+.ray_tmp/**
+*.log
+*.ckpt
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.npz
+*.npy
+*.sqlite
+*.db
+wandb/
+mlruns/
+
+# Local model/export directories
+models/
+checkpoints/
+outputs/**
+
+# Rebuildable Teacher/Judge pools and intermediate SFT candidates
+data/external_tau2/
+data/sft/
+data/sft_sources/
+data/sft_sources_*/
+data/sft_v2/all_clean.jsonl
+
+# Archives and local resume bundles
+*.zip
+*.tar
+*.tar.gz
